@@ -3,12 +3,12 @@
 
 /* other css file imports */
 @import url("sections/header.css");
-/*@import url("sections/hero.css");
+@import url("sections/hero.css");
 @import url("sections/about.css");
 @import url("sections/popular.css");
 @import url("sections/trending.css");
 @import url("sections/subscribe.css");
-@import url("sections/footer.css");*/
+@import url("sections/footer.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {

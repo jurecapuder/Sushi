@@ -1,27 +1,29 @@
-.header__nav {
+.hero {
   display: flex;
+  min-height: calc(100vh - 74px);
   overflow: hidden;
 }
 
-.header__logo {
+.hero-image {
   flex: 1;
   display: flex;
+  flex-direction: column;
 
   position: relative;
-  padding: 20px;
+  z-index: 5;
 }
 
-.header__logo-overlay {
+.hero-image img {
+  width: 120%;
+  height: 120%;
+  object-fit: contain;
+}
+
+.hero-image__overlay {
   position: absolute;
   inset: 0;
   width: 100%;
 
   background-color: var(--primary-color);
   z-index: -1;
-}
-
-.header__logo h4 {
-  padding-left: 30px;
-
-  color: #fff;
 }
