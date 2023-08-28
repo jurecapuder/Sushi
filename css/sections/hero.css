@@ -10,12 +10,12 @@
   flex-direction: column;
 
   position: relative;
-  z-index: 5;
+  z-index: 5
 }
 
 .hero-image img {
   width: 120%;
-  height: 120%;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -102,7 +102,7 @@
 
   display: flex;
   align-items: center;
-
+  
   font-size: 16px;
   line-height: 19px;
   color: var(--black-200);
@@ -126,7 +126,7 @@
   flex-wrap: wrap;
   gap: 20px;
 
-  background: var(--color-white);
+  background: var(--color-white)
 }
 
 .hero-content__customer {
@@ -135,9 +135,9 @@
 }
 
 .hero-content__customer h4 {
-  font-size: 64px;
+  font-size: 62px;
   font-weight: 400;
-  font-family: var(--playfair-display);
+  font-family: var(--playfair-display)
 }
 
 .hero-content__customer p {
@@ -171,5 +171,5 @@
   line-height: 32px;
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
-  opacity: 0.8;
+  opacity: 0.8
 }
