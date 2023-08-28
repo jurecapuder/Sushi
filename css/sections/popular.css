@@ -45,7 +45,7 @@
   border-radius: 46px;
 
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 300px;
   line-height: 25px;
   font-family: var(--plus-jakarta-sans);
   color: #fff;
@@ -60,12 +60,12 @@
 
 .popular-foods__filter-btn.active {
   background: #fff;
-  color: var(--primary-color);
+  color: var(--primary-color)
 }
 
 .popular-foods__filter-btn:hover {
   background: #fff;
-  color: var(--primary-color);
+  color: var(--primary-color)
 }
 
 .popular-foods__catalogue {
@@ -154,14 +154,14 @@
 }
 
 .popular-foods__card-rating p {
-  font-size: 20px;
+  font-size: 20px; 
   font-weight: 300;
   font-family: var(--plus-jakarta-sans);
   color: #fff;
 }
 
 .popular-foods__card-price {
-  font-size: 20px;
+  font-size: 20px; 
   font-weight: 500;
   font-family: var(--plus-jakarta-sans);
   color: #fff;
@@ -173,7 +173,7 @@
 }
 
 .popular-foods__card.active-card .popular-foods__card-image {
-  width: 240px;
+  width: 214px;
   height: 160px;
 }
 
@@ -194,5 +194,5 @@
 
 .popular-foods__card.active-card .popular-foods__card-price {
   font-size: 24px;
-  color: var(--secondary-color);
+  color: var(--secondary-color)
 }
