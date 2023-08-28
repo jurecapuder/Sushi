@@ -1,6 +1,6 @@
 .about-us {
   display: flex;
-  min-width: 720px;
+  min-height: 720px;
   overflow: hidden;
 }
 
@@ -30,12 +30,11 @@
 .about-us__image-sushi3 {
   border-bottom: 8px solid var(--color-creamson);
 
-  background-image: url("../../assets/about_bg1.png");
+  background-image: url("../../assets/about_bg1.png")
 }
 
 .about-us__image-sushi2 {
-
-  background-image: url("../../assets/about_bg2.png");
+  background-image: url("../../assets/about_bg2.png")
 }
 
 .about-us__image-sushi3 img {
@@ -76,7 +75,7 @@
 
 .about-us__content {
   padding: 64px;
-  
+
   flex: 1;
   display: flex;
   justify-content: center;
