@@ -12,7 +12,7 @@
 .footer__logo {
   font-size: 24px;
   font-weight: bold;
-  font-family: vat(--playfair-display);
+  font-family: var(--playfair-display);
   text-transform: uppercase;
   color: var(--secondary-color);
 
@@ -20,7 +20,7 @@
 }
 
 .footer__logo span {
-  color: var(--primary-color);
+  color: var(--primary-color)
 }
 
 .footer ul {
@@ -57,6 +57,6 @@
 .footer__social li img {
   width: 45%;
   height: 45%;
-  
+
   object-fit: contain;
 }
